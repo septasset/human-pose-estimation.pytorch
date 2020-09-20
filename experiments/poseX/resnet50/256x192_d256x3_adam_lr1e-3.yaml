@@ -8,8 +8,8 @@ PRINT_FREQ: 100
 DATASET:
   DATASET: 'coco' # leave as coco for training
   ROOT: 'data/poseX/'
-  TEST_SET: 'train_v025' # TODO: for test, validset = trainset
-  TRAIN_SET: 'train_v025'
+  TEST_SET: 'valid_v030'
+  TRAIN_SET: 'train_v030'
   FLIP: true
   ROT_FACTOR: 40
   SCALE_FACTOR: 0.3
